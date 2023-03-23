@@ -8,7 +8,7 @@ import static org.firmata4j.Pin.Mode.OUTPUT;
 
 public class Firmata4jDemo {
 
-	static IODevice device = new FirmataDevice("/dev/tty.usbmodem1451");
+	static IODevice device = new FirmataDevice("/dev/ttyACM0");
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		try {
